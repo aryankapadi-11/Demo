@@ -4,7 +4,114 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Foodie Blog</title>
-    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* General Reset */
+        body, h1, h2, h3, p, ul, li, a {
+            margin: 0;
+            padding: 0;
+            text-decoration: none;
+        }
+
+        /* Body Styling */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f9f9f9;
+        }
+
+        /* Header Styling */
+        header {
+            background: #ff8c00;
+            color: #fff;
+            padding: 20px 10px;
+            text-align: center;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header .logo h1 {
+            font-size: 1.8em;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 15px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+
+        /* Hero Section */
+        .hero {
+            background: url('https://via.placeholder.com/1200x400') no-repeat center center/cover;
+            color: #fff;
+            text-align: center;
+            padding: 50px 20px;
+        }
+
+        .hero h2 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        .hero p {
+            font-size: 1.2em;
+        }
+
+        /* Blog Posts */
+        .blog-posts {
+            display: flex;
+            gap: 20px;
+            padding: 20px;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .post {
+            background: #fff;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.15);
+            border-radius: 10px;
+            overflow: hidden;
+            width: 300px;
+            text-align: center;
+        }
+
+        .post img {
+            width: 100%;
+            height: auto;
+        }
+
+        .post h3 {
+            margin: 10px 0;
+        }
+
+        .post p {
+            padding: 0 10px;
+            color: #666;
+        }
+
+        .post a {
+            display: inline-block;
+            margin: 10px 0;
+            color: #ff8c00;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+
+        /* Footer */
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+    </style>
 </head>
 <body>
     <header>
